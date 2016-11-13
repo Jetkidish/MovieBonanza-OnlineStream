@@ -85,7 +85,7 @@ namespace MovieBonanza_OnlineStream
             Program.selection[0] = TitleTextBox.Text;
             Program.selection[1] = CategoryTextBox.Text;
             Program.selection[2] = CostTextBox.Text;
-            Program.selection[3] = SelectionPictureBox.Image.ToString();
+            //Program.selection[3] = SelectionPictureBox.Image.ToString();
             OrderForm orderForm = new MovieBonanza_OnlineStream.OrderForm();
             orderForm.Show();
             this.Hide();
