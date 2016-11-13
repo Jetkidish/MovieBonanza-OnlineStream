@@ -8,6 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/*
+ * Splash Form - Part of the COMP1004 F2016 Movie Bonanza Assignment
+ * Designed by Devon Cochrane (SN 200244662)
+ * Rev 1.0
+ * This form simply displays the splash image
+ */
+
 namespace MovieBonanza_OnlineStream
 {
     public partial class SplashForm : Form

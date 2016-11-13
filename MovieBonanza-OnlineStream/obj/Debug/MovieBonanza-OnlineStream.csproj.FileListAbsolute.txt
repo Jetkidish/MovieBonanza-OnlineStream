@@ -8,3 +8,6 @@ D:\Users\Devon\Documents\School\Semester 1 - Fall 2016\COMP1004 - Rapid Applicat
 D:\Users\Devon\Documents\School\Semester 1 - Fall 2016\COMP1004 - Rapid Application Development\MovieBonanza-OnlineStream\MovieBonanza-OnlineStream\obj\Debug\MovieBonanza-OnlineStream.exe
 D:\Users\Devon\Documents\School\Semester 1 - Fall 2016\COMP1004 - Rapid Application Development\MovieBonanza-OnlineStream\MovieBonanza-OnlineStream\obj\Debug\MovieBonanza-OnlineStream.pdb
 D:\Users\Devon\Documents\School\Semester 1 - Fall 2016\COMP1004 - Rapid Application Development\MovieBonanza-OnlineStream\MovieBonanza-OnlineStream\obj\Debug\MovieBonanza_OnlineStream.OrderForm.resources
+D:\Users\Devon\Documents\School\Semester 1 - Fall 2016\COMP1004 - Rapid Application Development\MovieBonanza-OnlineStream\MovieBonanza-OnlineStream\obj\Debug\MovieBonanza_OnlineStream.AboutBox.resources
+D:\Users\Devon\Documents\School\Semester 1 - Fall 2016\COMP1004 - Rapid Application Development\MovieBonanza-OnlineStream\MovieBonanza-OnlineStream\obj\Debug\MovieBonanza_OnlineStream.StreamForm.resources
+D:\Users\Devon\Documents\School\Semester 1 - Fall 2016\COMP1004 - Rapid Application Development\MovieBonanza-OnlineStream\MovieBonanza-OnlineStream\obj\Debug\MovieBonanza-OnlineStream.csprojResolveAssemblyReference.cache

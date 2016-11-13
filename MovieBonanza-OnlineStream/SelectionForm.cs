@@ -8,6 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+/*
+ * Selection Form - Part of the COMP1004 F2016 Movie Bonanza Assignment
+ * Designed by Devon Cochrane (SN 200244662)
+ * Rev 1.0
+ * This form displays the movie selection, takes user input, and saves info for later
+ */
+
 namespace MovieBonanza_OnlineStream
 {
     public partial class SelectionForm : Form
@@ -17,12 +25,19 @@ namespace MovieBonanza_OnlineStream
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// CurrentMoviesListBox_SelectedIndexChanged Event Handler
+        /// This will update all information in the window based on the user selection. This includes the movie title, category, cost, and image
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void CurrentMoviesListBox_SelectedIndexChanged(object sender, EventArgs e)
         {   
+            //This converts the selected item to a string, and displays it in the title text box
             TitleTextBox.Text = (string)CurrentMoviesListBox.SelectedItem;
-            this._selectedMovie = TitleTextBox.Text;
+            //If any movie is selected, the next button is enabled
             NextButton.Enabled = true;
+            //The following if statements set the images for the movies. No images were provided, so ones based on each movies category were created
             if (this._selectedMovie == "The Green Hornet" || this._selectedMovie == "Death Race 2" || this._selectedMovie == "The Mechanic" || this._selectedMovie == "Sanctum" || this._selectedMovie == "The Other Woman" || this._selectedMovie == "The Eagle")
             {
                 CategoryTextBox.Text = "Action";
@@ -79,14 +94,19 @@ namespace MovieBonanza_OnlineStream
                 SelectionPictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
             }
         }
-
+        /// <summary>
+        /// NextButton_Click event handler
+        /// This will store the movie title, category, and cost into a global array. It will also hide the current window, and show the next one, as well as set the "previous form" to this window
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void NextButton_Click(object sender, EventArgs e)
         {
             Program.selection[0] = TitleTextBox.Text;
             Program.selection[1] = CategoryTextBox.Text;
             Program.selection[2] = CostTextBox.Text;
-            //Program.selection[3] = SelectionPictureBox.Image.ToString();
             OrderForm orderForm = new MovieBonanza_OnlineStream.OrderForm();
+            orderForm.previousForm = this;
             orderForm.Show();
             this.Hide();
         }
