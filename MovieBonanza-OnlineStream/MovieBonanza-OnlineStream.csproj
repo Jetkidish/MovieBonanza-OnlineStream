@@ -72,6 +72,9 @@
     <Compile Include="StreamForm.Designer.cs">
       <DependentUpon>StreamForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="OrderForm.resx">
+      <DependentUpon>OrderForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -103,6 +106,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\moviebonansa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\action.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comedy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\family.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\horror.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newrelease.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thriller.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scifi.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

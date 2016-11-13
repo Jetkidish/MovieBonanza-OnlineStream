@@ -16,5 +16,10 @@ namespace MovieBonanza_OnlineStream
         {
             InitializeComponent();
         }
+
+        private void OptionalDVDCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

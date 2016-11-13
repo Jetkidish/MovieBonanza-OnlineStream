@@ -8,6 +8,7 @@ namespace MovieBonanza_OnlineStream
 {
     static class Program
     {
+        public static string[] selection = new string[3];
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
